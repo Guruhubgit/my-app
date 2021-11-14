@@ -4,7 +4,7 @@
 	<groupId>in.javahome</groupId>
 	<artifactId>myweb</artifactId>
 	<packaging>war</packaging>
-	<version>0.0.6</version>
+	<version>0.0.5</version>
 	<name>my-app</name>
 	<url>http://maven.apache.org</url>
 
@@ -24,5 +24,10 @@
 	
 
 	</dependencies>
+	
+	  <properties>
+    <maven.compiler.source>1.6</maven.compiler.source>
+    <maven.compiler.target>1.6</maven.compiler.target>
+  </properties>
 	
 </project>
