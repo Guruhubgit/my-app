@@ -1,0 +1,13 @@
+apiVersion: eksctl.io/v1alpha5
+kind: ClusterConfig
+
+metadata:
+  name: sample-cluster
+  region: ap-south-1
+
+nodeGroup:
+  - name: ng-2
+    instanceType: t2.micro
+    desiredCapacity: 2
+    ssh:
+      publicKeyPath: ~/.ssh/id_rsa.pub
