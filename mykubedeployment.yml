@@ -13,7 +13,7 @@ spec:
         app: myappication
     spec:
       containers:
-        - name: myContainer
+        - name: my-Container
           image: guru1998/guruweb:2.1.0
 
           resources:
