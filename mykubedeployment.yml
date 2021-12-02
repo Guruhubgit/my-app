@@ -13,7 +13,7 @@ spec:
         app: myappication
     spec:
       containers:
-        - name: my-Container
+        - name: springboot
           image: guru1998/guruweb:2.1.0
 
           resources:
