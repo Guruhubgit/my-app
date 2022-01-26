@@ -6,7 +6,7 @@ pipeline{
     stages{
         stage("SCM"){
             steps{
-               echo "job d again"
+               echo "job in"
             }
         }
     }
